@@ -1,0 +1,15 @@
+-------------------START-------------5/14/2014 5:31:13 PM
+Source :2
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'UpdateUserProfile' expects parameter '@Name', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at MITT.UserConsole.btnProfileSave_Click(Object sender, EventArgs e) in C:\Users\jtrivedi\Desktop\General\MITT2\MITT\MITT\UserConsole.aspx.cs:line 158
+ClientConnectionId:9f5b5b14-e511-4d39-a3e0-630c8ece4d2a
+-------------------END-------------5/14/2014 5:31:13 PM
